@@ -25,9 +25,6 @@ export default ({ data }) => (
             __html: data.datoCmsBlog.blogcontentNode.childMarkdownRemark.html,
           }}
         />
-        <div className="sheet__gallery">
-          <Img fluid={data.datoCmsBlog.coverImage.fluid} />
-        </div>
       </div>
     </article>
   </Layout>
